@@ -16,7 +16,7 @@ LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
 
-LOCAL_MODULE := consumerir.amlogic
+LOCAL_MODULE := consumerir.$(TARGET_DEVICE)
 LOCAL_MODULE_RELATIVE_PATH := hw
 LOCAL_SRC_FILES := consumerir.c
 LOCAL_SHARED_LIBRARIES := liblog libcutils
